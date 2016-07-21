@@ -35,6 +35,7 @@ a {
   text-decoration: none;
   background-color: #818182;
   border-color: #F5F7FA;
+}
 
 @media screen and (min-width: 64em) {
   .btn {
