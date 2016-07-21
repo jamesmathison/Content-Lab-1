@@ -32,12 +32,9 @@ a {
 
 .btn:hover {
   color: #F5F7FA;
-  /* color: rgba(255, 255, 255, 0.8); */
   text-decoration: none;
   background-color: #818182;
-  /* background-color: rgba(255, 255, 255, 0.2); */
   border-color: #F5F7FA;
-  /* border-color: rgba(255, 255, 255, 0.3); } */
 
 @media screen and (min-width: 64em) {
   .btn {
