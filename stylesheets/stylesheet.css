@@ -90,9 +90,10 @@ a {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 15% 4rem; } 
+    padding: 15% 4rem; 
+    line-height:240%; } 
   .page-header-2 {
-    font-size: 1.9rem; }
+    font-size: 1.7rem; }
 }
 
 @media screen and (max-width: 42em) {
