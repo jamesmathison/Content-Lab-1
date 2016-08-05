@@ -45,11 +45,11 @@ a {
 
 @media screen and (min-width: 64em) {
   .btn {
-    padding: 0.75rem 1rem; } }
+    padding: 0.1rem 1rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn {
-    padding: 0.6rem 0.9rem;
+    padding: 0.1rem 0.9rem;
     font-size: 0.9rem; } }
 
 @media screen and (max-width: 42em) {
@@ -79,20 +79,30 @@ a {
   padding-left: 40px; 
   letter-spacing: 60px; 
   font-weight: 100;
-  font-size: 45px;
 }
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 15% 6rem; } }
+    padding: 15% 6rem; } 
+  .page-header-2 {
+    font-size: 2.7rem; }
+}
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 15% 4rem; } }
+    padding: 15% 4rem; } 
+  .page-header-2 {
+    font-size: 1.9rem; }
+}
 
 @media screen and (max-width: 42em) {
   .page-header {
-    padding: 2rem 1rem; } }
+    padding: 2rem 1rem; 
+    line-height:200%; } 
+ .page-header-2 {
+    letter-spacing: 50px; 
+    font-size: 1.4rem; }
+}
 
 /* Start of Product Description Page */
 /* Header Background = Grey: #1C1C1C | Header Text = White | Section Headers = Grey  */
