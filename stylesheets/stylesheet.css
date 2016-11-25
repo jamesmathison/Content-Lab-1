@@ -112,11 +112,11 @@ a {
   border-radius: 50%;         
   width: 80px;         
   height: 80px;         
-  background:#19253c;         
-  position: absolute;        
+  background:#19253c;       
   top: 60px;         
   left: 160px; /*However much you remove from width and height, you add half of that value to top and left, and it stays center! */
   z-index: 2;
+  position: absolute;        
   top: 50%;
   left: 50%;
   margin-top: -40px;
@@ -127,12 +127,13 @@ a {
   border-radius: 50%;                
   width: 50px;         
   height: 50px;             
-  background:#fddf60;           
+  background:#94f3f1;           
   z-index: 3;
+  position: absolute;     
   top: 50%;
   left: 50%;
-  margin-top: -100px;
-  margin-left: -25px;
+  margin-top: -25px;
+  margin-left: -100px;
 }
 
 .right-dot {       
@@ -141,7 +142,7 @@ a {
   height: 34px;                     
   background:#fddf60;                   
   z-index: 4;
-                      
+  position: absolute; 
   top: 50%;
   left: 50%;
   margin-top: -40px;
